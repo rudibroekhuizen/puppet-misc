@@ -1,0 +1,4 @@
+role_cron::cron_job_hash:
+  123test:
+    minute: '*/1'
+    command: "date > /tmp/date"
