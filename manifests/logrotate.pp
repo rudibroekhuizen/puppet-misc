@@ -10,3 +10,5 @@ class misc::logrotate (
   create_resources('logrotate::rule', $logrotate_rule_hash)
 
 }
+
+# Wrapper arount https://github.com/rodjek/puppet-logrotate
