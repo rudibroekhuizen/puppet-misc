@@ -8,7 +8,7 @@ class misc::docker {
   }
 
   class {'docker::compose':
-    ensure => present,
+    version => '1.19.0'
   }
  
 }
